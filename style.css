@@ -19,8 +19,10 @@ div
 {
     border: 3px solid black;
     border-radius: 5.5px;
-    width: 350px;
-    height: 300px;
+    min-width: 350px;
+    max-width: 560px;
+    min-height: 300px;
+    max-height: 700px;
     display: flex;
     flex-direction: column;
 }
